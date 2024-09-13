@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="SaranStreetRestaurant.Admin.AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Admin Dashboard</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            margin-top: 17px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <h2 style="text-align: center;">Admin Dashboard</h2>
+        </div>
+        <asp:Panel ID="Panel1" runat="server" CssClass="auto-style1" Height="496px" Width="223px" BackColor="Blue">
+            <asp:Button ID="Button2" runat="server" Text="Employee Details" BackColor="Blue" Font-Bold="True" ForeColor="White" Height="40px" Width="223px" OnClick="Button2_Click" />
+            <asp:Button ID="Button3" runat="server" BackColor="Blue" Font-Bold="True" ForeColor="White" Height="40px" Text="Table Reservation" Width="223px" />
+            <asp:Button ID="Button4" runat="server" BackColor="Blue" Font-Bold="True" ForeColor="White" Height="40px" Text="Food Items" Width="223px" />
+            <asp:Button ID="Button5" runat="server" BackColor="Blue" Font-Bold="True" ForeColor="White" Height="40px" Text="Billing" Width="223px" />
+            <asp:Button ID="Button6" runat="server" BackColor="Blue" Font-Bold="True" ForeColor="White" Height="40px" Text="Sales Details" Width="223px" />
+            <asp:Button ID="Button7" runat="server" BackColor="Blue" Font-Bold="True" ForeColor="White" Height="40px" Text="Other Feature 1" Width="223px" />
+            <asp:Button ID="Button8" runat="server" BackColor="Blue" Font-Bold="True" ForeColor="White" Height="40px" Text="Other Feature 2" Width="223px" />
+        </asp:Panel>
+
+        <!-- Main content area for other pages to fill -->
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
