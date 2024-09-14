@@ -60,31 +60,31 @@ namespace SaranStreetRestaurant.Admin
         protected global::System.Web.UI.WebControls.Button Button3;
 
         /// <summary>
-        /// Button4 control.
+        /// btn_food_item control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button4;
+        protected global::System.Web.UI.WebControls.Button btn_food_item;
 
         /// <summary>
-        /// Button5 control.
+        /// btn_billing control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button5;
+        protected global::System.Web.UI.WebControls.Button btn_billing;
 
         /// <summary>
-        /// Button6 control.
+        /// btn_sales control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button6;
+        protected global::System.Web.UI.WebControls.Button btn_sales;
 
         /// <summary>
         /// Button7 control.

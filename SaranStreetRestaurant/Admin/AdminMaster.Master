@@ -18,12 +18,13 @@
         <div>
             <h2 style="text-align: center;">Admin Dashboard</h2>
         </div>
+       
         <asp:Panel ID="Panel1" runat="server" CssClass="auto-style1" Height="496px" Width="223px" BackColor="Blue">
             <asp:Button ID="Button2" runat="server" Text="Employee Details" BackColor="Blue" Font-Bold="True" ForeColor="White" Height="40px" Width="223px" OnClick="Button2_Click" />
-            <asp:Button ID="Button3" runat="server" BackColor="Blue" Font-Bold="True" ForeColor="White" Height="40px" Text="Table Reservation" Width="223px" />
-            <asp:Button ID="Button4" runat="server" BackColor="Blue" Font-Bold="True" ForeColor="White" Height="40px" Text="Food Items" Width="223px" />
-            <asp:Button ID="Button5" runat="server" BackColor="Blue" Font-Bold="True" ForeColor="White" Height="40px" Text="Billing" Width="223px" />
-            <asp:Button ID="Button6" runat="server" BackColor="Blue" Font-Bold="True" ForeColor="White" Height="40px" Text="Sales Details" Width="223px" />
+            <asp:Button ID="Button3" runat="server" BackColor="Blue" Font-Bold="True" ForeColor="White" Height="40px" Text="Table Reservation" Width="223px" OnClick="Button3_Click" />
+            <asp:Button ID="btn_food_item" runat="server" BackColor="Blue" Font-Bold="True" ForeColor="White" Height="40px" Text="Food Items" Width="223px" OnClick="btn_food_item_Click" />
+            <asp:Button ID="btn_billing" runat="server" BackColor="Blue" Font-Bold="True" ForeColor="White" Height="40px" Text="Billing" Width="223px" OnClick="btn_billing_Click" />
+            <asp:Button ID="btn_sales" runat="server" BackColor="Blue" Font-Bold="True" ForeColor="White" Height="40px" Text="Sales Details" Width="223px" />
             <asp:Button ID="Button7" runat="server" BackColor="Blue" Font-Bold="True" ForeColor="White" Height="40px" Text="Other Feature 1" Width="223px" />
             <asp:Button ID="Button8" runat="server" BackColor="Blue" Font-Bold="True" ForeColor="White" Height="40px" Text="Other Feature 2" Width="223px" />
         </asp:Panel>

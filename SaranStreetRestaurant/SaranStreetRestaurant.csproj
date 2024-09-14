@@ -68,7 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="about.aspx" />
+    <Content Include="Admin\Billing.aspx" />
     <Content Include="Admin\Employee.aspx" />
+    <Content Include="Admin\FoodItems.aspx" />
+    <Content Include="Admin\Table.aspx" />
     <Content Include="contact.aspx" />
     <Content Include="CSS\all.min.css" />
     <Content Include="CSS\templatemo-style.css" />
@@ -133,12 +136,33 @@
     <Compile Include="Admin\AdminMaster.Master.designer.cs">
       <DependentUpon>AdminMaster.Master</DependentUpon>
     </Compile>
+    <Compile Include="Admin\Billing.aspx.cs">
+      <DependentUpon>Billing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Billing.aspx.designer.cs">
+      <DependentUpon>Billing.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\Employee.aspx.cs">
       <DependentUpon>Employee.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Admin\Employee.aspx.designer.cs">
       <DependentUpon>Employee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\FoodItems.aspx.cs">
+      <DependentUpon>FoodItems.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\FoodItems.aspx.designer.cs">
+      <DependentUpon>FoodItems.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Table.aspx.cs">
+      <DependentUpon>Table.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Table.aspx.designer.cs">
+      <DependentUpon>Table.aspx</DependentUpon>
     </Compile>
     <Compile Include="contact.aspx.cs">
       <DependentUpon>contact.aspx</DependentUpon>

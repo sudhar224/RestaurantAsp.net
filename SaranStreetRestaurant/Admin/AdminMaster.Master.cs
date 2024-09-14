@@ -16,7 +16,22 @@ namespace SaranStreetRestaurant.Admin
 
         protected void Button2_Click(object sender, EventArgs e)
         {
+            Response.Redirect("Employee.aspx");
+        }
 
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Table.aspx");
+        }
+
+        protected void btn_food_item_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("FoodItems.aspx");
+        }
+
+        protected void btn_billing_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Billing.aspx");
         }
     }
 }
