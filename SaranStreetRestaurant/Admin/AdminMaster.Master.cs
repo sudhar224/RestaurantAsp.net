@@ -33,5 +33,15 @@ namespace SaranStreetRestaurant.Admin
         {
             Response.Redirect("Billing.aspx");
         }
+
+        protected void btn_sales_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Sales.aspx");
+        }
+
+        protected void Button8_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("LoginPage.aspx");
+        }
     }
 }

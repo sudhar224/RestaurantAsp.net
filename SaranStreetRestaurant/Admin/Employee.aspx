@@ -9,7 +9,7 @@
             position: absolute;
             top: 20px;
             right: 20px;
-            width: 300px; /* Adjust width as per your need */
+            width: 300px; 
             padding: 20px;
             background-color: lightgray;
             border-radius: 5px;
@@ -24,7 +24,7 @@
             position: absolute;
             top: 63px;
             right: 7px;
-            width: 776px; /* Adjust width as per your need */
+            width: 776px; 
             padding: 20px;
             background-color: lightgray;
             border-radius: 5px;

@@ -24,9 +24,9 @@
             <asp:Button ID="Button3" runat="server" BackColor="Blue" Font-Bold="True" ForeColor="White" Height="40px" Text="Table Reservation" Width="223px" OnClick="Button3_Click" />
             <asp:Button ID="btn_food_item" runat="server" BackColor="Blue" Font-Bold="True" ForeColor="White" Height="40px" Text="Food Items" Width="223px" OnClick="btn_food_item_Click" />
             <asp:Button ID="btn_billing" runat="server" BackColor="Blue" Font-Bold="True" ForeColor="White" Height="40px" Text="Billing" Width="223px" OnClick="btn_billing_Click" />
-            <asp:Button ID="btn_sales" runat="server" BackColor="Blue" Font-Bold="True" ForeColor="White" Height="40px" Text="Sales Details" Width="223px" />
-            <asp:Button ID="Button7" runat="server" BackColor="Blue" Font-Bold="True" ForeColor="White" Height="40px" Text="Other Feature 1" Width="223px" />
-            <asp:Button ID="Button8" runat="server" BackColor="Blue" Font-Bold="True" ForeColor="White" Height="40px" Text="Other Feature 2" Width="223px" />
+            <asp:Button ID="btn_sales" runat="server" BackColor="Blue" Font-Bold="True" ForeColor="White" Height="40px" Text="Sales Details" Width="223px" OnClick="btn_sales_Click" />
+            <asp:Button ID="Button7" runat="server" BackColor="Blue" Font-Bold="True" ForeColor="White" Height="40px" Text="" Width="223px" />
+            <asp:Button ID="Button8" runat="server" BackColor="Blue" Font-Bold="True" ForeColor="White" Height="40px" Text="Logout" Width="223px" OnClick="Button8_Click" />
         </asp:Panel>
 
         <!-- Main content area for other pages to fill -->

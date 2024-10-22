@@ -71,6 +71,7 @@
     <Content Include="Admin\Billing.aspx" />
     <Content Include="Admin\Employee.aspx" />
     <Content Include="Admin\FoodItems.aspx" />
+    <Content Include="Admin\Sales.aspx" />
     <Content Include="Admin\Table.aspx" />
     <Content Include="contact.aspx" />
     <Content Include="CSS\all.min.css" />
@@ -156,6 +157,13 @@
     </Compile>
     <Compile Include="Admin\FoodItems.aspx.designer.cs">
       <DependentUpon>FoodItems.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Sales.aspx.cs">
+      <DependentUpon>Sales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Sales.aspx.designer.cs">
+      <DependentUpon>Sales.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\Table.aspx.cs">
       <DependentUpon>Table.aspx</DependentUpon>
